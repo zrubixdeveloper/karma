@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en" class="light">
+   <!-- BEGIN: Head -->
+   <head>
+      <!-- META DATA -->
+      <meta charset="UTF-8">
+      <meta name='viewport' content='width=device-width, initial-scale=1.0, user-scalable=0'>
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="description" content="Karma Sales and Contract App">
+      <meta name="author" content="Zrubix - Zoho">
+      <meta name="keywords" content="">
+      <!-- TITLE -->
+      <title>Karma Sales and Contract App</title>
+      <!-- FAVICON -->
+      <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.png" />
+      <!-- STYLE CSS -->
+      <link href="assets/css/app.css" rel="stylesheet" />
+      <!--- FONT-ICONS CSS -->
+      <link href="" rel="stylesheet" />
+      <!-- END: CSS Assets-->
+   </head>
+   <!-- END: Head -->
+   <body class="login">
+      <div class="container sm:px-10">
+         <div class="block xl:grid grid-cols-2 gap-4">
+            <!-- BEGIN: Login Info -->
+            <div class="hidden xl:flex flex-col min-h-screen">
+               <a href="" class="-intro-x flex items-center pt-5">
+               <img alt="Karma - image" class="" src="assets/images/Karma.png">
+               </a>
+               <div class="my-auto">
+                  <img alt="Karma - image" class="-intro-x w-1/2 -mt-16" src="assets/images/illustration.png">
+                  <div class="-intro-x text-white font-medium text-4xl leading-tight mt-10">A few more clicks to <br> sign in to your account.</div>
+                  <div class="-intro-x mt-5 text-lg text-white text-opacity-70 dark:text-slate-400">Manage all your sales accounts in one place.</div>
+               </div>
+            </div>
+            <!-- END: Login Info -->
+            <!-- BEGIN: Login Form -->
+            <div class="h-screen xl:h-auto flex py-5 xl:py-0 my-10 xl:my-0">
+               <div class="my-auto mx-auto xl:ml-20 bg-white dark:bg-darkmode-600 xl:bg-transparent px-5 sm:px-8 py-8 xl:p-0 rounded-md shadow-md xl:shadow-none w-full sm:w-3/4 lg:w-2/4 xl:w-auto">
+                  <h2 class="intro-x font-bold text-2xl xl:text-3xl text-center xl:text-left">Sign In</h2>
+                  <div class="intro-x mt-2 text-slate-400 xl:hidden text-center">A few more clicks to sign in to your account. Manage all your sales accounts in one place.</div>
+                  <div class="intro-x mt-8">
+                     <input type="text" class="intro-x login__input form-control py-3 px-4 block" placeholder="Email">
+                     <input type="password" class="intro-x login__input form-control py-3 px-4 block mt-4" placeholder="Password">
+                  </div>
+                  <div class="intro-x flex text-slate-600 dark:text-slate-500 text-xs sm:text-sm mt-4">
+                     <div class="flex items-center mr-auto">
+                        <input id="remember-me" type="checkbox" class="form-check-input border mr-2">
+                        <label class="cursor-pointer select-none" for="remember-me">Remember me</label>
+                     </div>
+                     <a href="">Forgot Password?</a>
+                  </div>
+                  <div class="intro-x mt-5 xl:mt-8 text-center xl:text-left">
+                     <button class="btn btn-primary py-3 px-4 w-full xl:w-32 xl:mr-3 align-top" style="width: 100%;" onclick="location.href='dashboard.html'">Login</button>
+                     <p class="text-center py-3">or</p>
+                     <button class="btn btn-outline-secondary py-3 px-4 w-full xl:w-32 mt-3 xl:mt-0 align-top" style="width: 100%;">
+                        <svg width="24px" height="24px" style="padding-right:7px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                           <path fill="#EA4335 " d="M5.26620003,9.76452941 C6.19878754,6.93863203 8.85444915,4.90909091 12,4.90909091 C13.6909091,4.90909091 15.2181818,5.50909091 16.4181818,6.49090909 L19.9090909,3 C17.7818182,1.14545455 15.0545455,0 12,0 C7.27006974,0 3.1977497,2.69829785 1.23999023,6.65002441 L5.26620003,9.76452941 Z"/>
+                           <path fill="#34A853" d="M16.0407269,18.0125889 C14.9509167,18.7163016 13.5660892,19.0909091 12,19.0909091 C8.86648613,19.0909091 6.21911939,17.076871 5.27698177,14.2678769 L1.23746264,17.3349879 C3.19279051,21.2936293 7.26500293,24 12,24 C14.9328362,24 17.7353462,22.9573905 19.834192,20.9995801 L16.0407269,18.0125889 Z"/>
+                           <path fill="#4A90E2" d="M19.834192,20.9995801 C22.0291676,18.9520994 23.4545455,15.903663 23.4545455,12 C23.4545455,11.2909091 23.3454545,10.5272727 23.1818182,9.81818182 L12,9.81818182 L12,14.4545455 L18.4363636,14.4545455 C18.1187732,16.013626 17.2662994,17.2212117 16.0407269,18.0125889 L19.834192,20.9995801 Z"/>
+                           <path fill="#FBBC05" d="M5.27698177,14.2678769 C5.03832634,13.556323 4.90909091,12.7937589 4.90909091,12 C4.90909091,11.2182781 5.03443647,10.4668121 5.26620003,9.76452941 L1.23999023,6.65002441 C0.43658717,8.26043162 0,10.0753848 0,12 C0,13.9195484 0.444780743,15.7301709 1.23746264,17.3349879 L5.27698177,14.2678769 Z"/>
+                        </svg>
+                        Sign In with Google
+                     </button>
+                  </div>
+                  <div class="intro-x mt-10 xl:mt-24 text-slate-600 dark:text-slate-500 text-center xl:text-left">
+                     By signin up, you agree to our <a class="text-primary dark:text-slate-200" href="">Terms and Conditions</a> &amp; <a class="text-primary dark:text-slate-200" href="">Privacy Policy</a>
+                  </div>
+               </div>
+            </div>
+            <!-- END: Login Form -->
+         </div>
+      </div>
+      <!-- BEGIN: JS Assets-->
+      <script src="assets/js/app.js"></script>
+      <!-- END: JS Assets-->
+   </body>
+</html>
